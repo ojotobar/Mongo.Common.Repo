@@ -1,0 +1,12 @@
+C:\Projects\New\MongoCommon\src\Mongo.Common\Mongo.Common\bin\Debug\net6.0\Mongo.Common.deps.json
+C:\Projects\New\MongoCommon\src\Mongo.Common\Mongo.Common\bin\Debug\net6.0\Mongo.Common.dll
+C:\Projects\New\MongoCommon\src\Mongo.Common\Mongo.Common\bin\Debug\net6.0\Mongo.Common.pdb
+C:\Projects\New\MongoCommon\src\Mongo.Common\Mongo.Common\obj\Debug\net6.0\Mongo.Common.csproj.AssemblyReference.cache
+C:\Projects\New\MongoCommon\src\Mongo.Common\Mongo.Common\obj\Debug\net6.0\Mongo.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\New\MongoCommon\src\Mongo.Common\Mongo.Common\obj\Debug\net6.0\Mongo.Common.AssemblyInfoInputs.cache
+C:\Projects\New\MongoCommon\src\Mongo.Common\Mongo.Common\obj\Debug\net6.0\Mongo.Common.AssemblyInfo.cs
+C:\Projects\New\MongoCommon\src\Mongo.Common\Mongo.Common\obj\Debug\net6.0\Mongo.Common.csproj.CoreCompileInputs.cache
+C:\Projects\New\MongoCommon\src\Mongo.Common\Mongo.Common\obj\Debug\net6.0\Mongo.Common.dll
+C:\Projects\New\MongoCommon\src\Mongo.Common\Mongo.Common\obj\Debug\net6.0\refint\Mongo.Common.dll
+C:\Projects\New\MongoCommon\src\Mongo.Common\Mongo.Common\obj\Debug\net6.0\Mongo.Common.pdb
+C:\Projects\New\MongoCommon\src\Mongo.Common\Mongo.Common\obj\Debug\net6.0\ref\Mongo.Common.dll

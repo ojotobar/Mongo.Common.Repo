@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<PackageId>Mongo.Common.Repo</PackageId>
+	<Version>1.0.0</Version>
+	<PackageTags>Mongo;MongoDB;</PackageTags>
+	<Description>
+	    This library enables working with Mongo Client service for performing common database operations with minimal setup.
+	</Description>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.23.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="docs\" />
+    <None Include="docs\README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+</Project>
