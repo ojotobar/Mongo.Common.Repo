@@ -4,13 +4,14 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	<PackageId>Mongo.Common.Repo</PackageId>
-	<Version>1.0.0</Version>
-	<PackageTags>Mongo;MongoDB;</PackageTags>
-	<Description>
-	    This library enables working with Mongo Client service for performing common database operations with minimal setup.
-	</Description>
-	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageId>Mongo.Common.Repo</PackageId>
+    <Version>1.0.0</Version>
+    <PackageTags>Mongo;MongoDB;</PackageTags>
+    <Authors>Ojo Toba Rufus</Authors>
+    <Description>
+        This library enables working with Mongo Client service for performing common database operations with minimal setup.
+    </Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
