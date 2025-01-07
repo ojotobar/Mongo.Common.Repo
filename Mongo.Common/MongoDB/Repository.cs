@@ -9,10 +9,10 @@ namespace Mongo.Common.MongoDB
     {
         private readonly IMongoCollection<TCollection> _collection;
 
-        public Repository(IOptions<MongoDbSettings> mongoDbSettings)
+        public Repository(MongoDbSettings mongoDbSettings)
         {
-            var mongoClient = new MongoClient(mongoDbSettings.Value.ConnectionString);
-            var mongoDatabase = mongoClient.GetDatabase(mongoDbSettings.Value.DatabaseName);
+            var mongoClient = new MongoClient(mongoDbSettings.ConnectionString);
+            var mongoDatabase = mongoClient.GetDatabase(mongoDbSettings.DatabaseName);
             _collection = mongoDatabase.GetCollection<TCollection>(typeof(TCollection).Name);
         }
 
@@ -36,6 +36,9 @@ namespace Mongo.Common.MongoDB
 
         public async Task RemoveAsync(Expression<Func<TCollection, bool>> expression) =>
             await _collection.DeleteOneAsync<TCollection>(expression);
+
+        public async Task RemoveManyAsync(Expression<Func<TCollection, bool>> expression, CancellationToken cancellationToken) =>
+            await _collection.DeleteManyAsync<TCollection>(expression, cancellationToken);
 
         public async Task<bool> ExistsAsync(Expression<Func<TCollection, bool>> expression) =>
             await _collection.CountDocumentsAsync<TCollection>(expression) > 0;

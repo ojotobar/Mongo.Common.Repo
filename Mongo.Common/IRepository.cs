@@ -15,5 +15,6 @@ namespace Mongo.Common
         Task UpdateAsync(Expression<Func<TCollection, bool>> expression, TCollection updateDocument);
         Task CreateManyAsync(ICollection<TCollection> collections);
         Task<List<TCollection>> GetManyAsync(Expression<Func<TCollection, bool>> expression);
+        Task RemoveManyAsync(Expression<Func<TCollection, bool>> expression, CancellationToken cancellationToken);
     }
 }
