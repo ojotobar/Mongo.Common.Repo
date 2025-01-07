@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyDescriptionAttribute("\r\n        This library enables working with Mongo Client service for performing c" +
     "ommon database operations with minimal setup.\r\n    ")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1494c4fbbef782ae8df02a7028e0cc84f88262ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mongo.Common")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mongo.Common")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
