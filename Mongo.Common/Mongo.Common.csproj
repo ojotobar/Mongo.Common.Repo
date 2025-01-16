@@ -12,7 +12,7 @@
         This library enables working with Mongo Client service for performing common database operations with minimal setup.
     </Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-	<RepositoryUrl>https://github.com/ojotobar/APICommonResponseModels</RepositoryUrl>
+	<RepositoryUrl>https://github.com/ojotobar/Mongo.Common.Repo</RepositoryUrl>
 	<Copyright>Copyright (c) Ojo Toba R.</Copyright>
 	<PackageReadmeFile>README.md</PackageReadmeFile>
 	<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
